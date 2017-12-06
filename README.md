@@ -12,7 +12,7 @@ Think of a connection as a sequence of TCP packets starting and ending at some w
 
 In total, there are 40 type of attacks to which their network is vulnerable to. But, 3 of them cause the maximum damage. In this challenge, you are given an anonymised sample dataset of server connections. You have to predict the type of attack(s).
 
-##cData Description
+## Data Description
 
 You are given three files to download: train, test and samplesubmission. The data contains anonymised set of features. Train data has 169307 rows and test data has 91166.
 
@@ -28,12 +28,13 @@ You are given three files to download: train, test and samplesubmission. The dat
 
 A participant has to submit a csv file with connection_id and targets as prediction labels. Check the sample submission file for reference. Also, share your source code.
 
-connection_id, target
-cxcon_2, 2
-cxcon_5, 0
-cxcon_8, 0
-cxcon_11, 1
-cxcon_14, 0
+| connection_id | target  |
+|---------------|---------|
+| cxcon_2       | 2       |
+| cxcon_5       | 0       |
+| cxcon_8       | 0       |
+| cxcon_11      | 1       |
+| cxcon_14      | 0       |
 
 ## Evaluation Metric
 
