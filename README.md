@@ -16,11 +16,12 @@ In total, there are 40 type of attacks to which their network is vulnerable to. 
 
 You are given three files to download: train, test and samplesubmission. The data contains anonymised set of features. Train data has 169307 rows and test data has 91166.
 
-Variable	        Description
-connection_id	    unique id
-cont_x	          numeric features
-cat_x	            categorical features
-target	          target variable (0, 1, 2 are attack types)
+| Variable        |  Description                                |
+|-----------------|---------------------------------------------|   
+| connection_id	  |  unique id                                  |
+| cont_x	        |  numeric features                           |
+| cat_x	          |  categorical features                       | 
+| target	        |  target variable (0, 1, 2 are attack types) |
 
 
 ## Submission
