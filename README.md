@@ -44,3 +44,9 @@ Submission will be evaluated based on multi-classification accuracy metric.
 
 Used Catboost classifier to solve the problem. Trained algorithm by tuning the parameters and made six submissions
 
+### Parameters tuned
+1. iterations
+2. depth 
+3. learning_rate
+4. loss_function
+
