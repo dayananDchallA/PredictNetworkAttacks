@@ -40,3 +40,7 @@ A participant has to submit a csv file with connection_id and targets as predict
 
 Submission will be evaluated based on multi-classification accuracy metric.
 
+## Algorithm Used
+
+Used Catboost classifier to solve the problem. Trained algorithm by tuning the parameters and made six submissions
+
