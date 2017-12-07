@@ -50,3 +50,9 @@ Used Catboost classifier to solve the problem. Trained algorithm by tuning the p
 3. learning_rate
 4. loss_function
 
+| Parameters                                                              | Score       |
+|-------------------------------------------------------------------------|-------------| 
+| iterations=100, depth=10, learning_rate=1, loss_function='MultiClass'   | 0.77210     |
+| iterations=100, depth=10, learning_rate=1, loss_function='CrossEntropy' | 0.78134     |
+
+
